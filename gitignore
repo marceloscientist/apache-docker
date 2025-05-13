@@ -1,0 +1,28 @@
+# Ignora arquivos gerados pelo sistema operacional
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# Pastas de IDEs/editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Docker
+**/node_modules/
+**/vendor/
+.env
+docker-compose.override.yml
+docker-volume-data/
+
+# Git
+.gitignore
